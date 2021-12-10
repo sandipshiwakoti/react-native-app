@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "react-native-app",
+    "name": "NepApp",
     "slug": "react-native-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,13 +13,12 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.nepcompany.nepapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
